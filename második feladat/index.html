@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Budai kutyavásár honlap</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Budai kutyavásár</h1>
+        <button><a href="https://hu.wikipedia.org/wiki/Egyszer_volt_Bud%C3%A1n_kutyav%C3%A1s%C3%A1r" target="_blank">Történet</a></button><br>
+        <img src="pictures/matyaskutya.png" alt="mingyábetölt" width="30%" class="matyaskep">
+        <h2>Elérhető ebek:</h2>
+        <ul>
+            <li>dénáros tacskó - Jobbágy kutya</li>
+            <li>füstadóg - Jobbágy kutya</li>
+            <li>corvin kuvasz - Középosztály kutya</li>
+            <li>beatrix zsebkutya - Királyi kutya</li>
+            <li>igazságos vizsla - Királyi kutya</li>
+        </ul>
+        <h2 id="araink">Áraink:</h2>
+        <ol>
+            <li>Jobbágy kutya: 20 dénár</li>
+            <li>Középosztály kutya: 3 aranyforint</li>
+            <li>Királyi kutya: 10 aranyforint</li>
+        </ol>
+        <form>
+            <label for="név">Megrendelő neve:</label>
+            <input type="text" name="név" id="név"> <br>
+            <label for="kutya">Kutya fajtája:</label>
+            <input type="text" name="kutya"> <br>
+            <label for="darab">Mennyiség:</label>
+            <input type="number" name="darab" min="1" max="5" value="1"> <br>
+            
+            <input type="submit" value="Kosárba">
+
+
+        </form>
+
+    </body>
+</html>

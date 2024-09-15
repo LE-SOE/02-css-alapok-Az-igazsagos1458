@@ -1,0 +1,32 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    color: rgb(126, 10, 10);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+}
+
+#araink{
+    font-style: italic;
+}
+
+.matyaskep{
+    margin-left: 40px;
+    border-radius: 20px;
+    border: 5px goldenrod solid;
+    border-left: double 5px goldenrod;
+    border-bottom: double 5px goldenrod;
+}
+
+button{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+input[type="submit"]{
+    margin-left: 180px;
+    margin-top: 20px;
+}
